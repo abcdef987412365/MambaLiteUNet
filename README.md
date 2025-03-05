@@ -51,6 +51,16 @@ This repository provides code for environment setup, installing dependencies, pr
 
 ## 2. Dataset Preparation
 
+Depending on your dataset, you may need additional preprocessing. For certain legacy dependencies (e.g., `scipy==1.2.1`), consider using a separate Python 3.7 environment:
+
+```bash
+conda create -n tool python=3.7 -y
+conda activate tool
+pip install h5py
+conda install scipy==1.2.1
+pip install pillow
+```
+
 ### ISIC2017
 1. Download from [ISIC 2017 Challenge](https://challenge.isic-archive.com/data).
 2. Extract training and ground-truth folders into `/data/ISIC2017/`.

@@ -77,14 +77,14 @@ pip install pillow
    python prepare_ISIC2018.py
    ```
 ### HAM10000
-1. Download from [HAM10000] (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T).
+1. Download from [HAM10000](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T).
 2. Extract training and ground-truth folders into `/data/HAM10000/`.
 3. Run:
    ```bash
    python prepare_HAM10000.py
    ```
 ### PH2
-1. Download from [PH2] (https://www.kaggle.com/datasets/athina123/ph2dataset).
+1. Download from [PH2](https://www.kaggle.com/datasets/athina123/ph2dataset).
 2. Extract training and ground-truth folders into `/data/PH2/`.
 3. Run:
    ```bash

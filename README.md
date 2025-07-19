@@ -123,7 +123,7 @@ python train.py
 
 ## 4. Acknowledgements
 
-We thank the ISIC 2017/2018 Challenge organizers and the open-source community for sharing valuable datasets and code repositories.
+We thank the ISIC 2017/2018 Challenge organizers and the open-source community for sharing valuable datasets and code repositories. We will provide more details later. 
 
 ---
 
